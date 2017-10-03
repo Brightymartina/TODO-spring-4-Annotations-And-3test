@@ -20,7 +20,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:10001", maxAge = 3600)
+@CrossOrigin
 @RequestMapping("/todolist")
 public class TodoController {
     @Autowired
